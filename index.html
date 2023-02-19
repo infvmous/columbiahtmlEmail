@@ -247,6 +247,18 @@
             }
       }
 
+      :root{
+        color-scheme: light dark;
+        supported-color-scheme: light dark;
+      }
+
+      @media (prefers-color-scheme: dark){
+        body, center, table {
+            background-color:  #393E46 !important;
+            color: white !important;
+        }
+      }
+
    </style>
    
    <!--Universal condition for microsoft -->
